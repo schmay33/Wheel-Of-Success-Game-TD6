@@ -95,7 +95,7 @@ button {
 
 .show {
   color: #000;
-  background-color: #76CE82;
+  background-color: var(--color-win);
 }
 
 /* Keyboard */
@@ -106,10 +106,14 @@ button {
 }
 
 .chosen {
-  background: var(--color-neutral);
+  background: var(--color-win);
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
+}
+
+.wrong {
+  background-color: var(--color-lose);
 }
 
 .btn__reset {
